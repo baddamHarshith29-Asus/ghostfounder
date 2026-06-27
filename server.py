@@ -453,4 +453,4 @@ def get_routing():
 
 if __name__ == "__main__":
     # Host on 0.0.0.0 and port 5000 to enable network/local fetching
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True, use_reloader=False)
