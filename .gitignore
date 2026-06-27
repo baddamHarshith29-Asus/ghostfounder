@@ -1,0 +1,35 @@
+# Environment variables (API keys)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+*.egg-info/
+
+# Node
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Data files (local memory/logs)
+data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
